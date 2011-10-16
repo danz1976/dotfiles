@@ -2,7 +2,7 @@
 
 require 'fileutils'
 
-files = [ '.vimrc' ]
+files = [ '.screenrc', '.vimrc' ]
 
 repo_dir = File.expand_path(Dir.pwd)
 home_dir = File.expand_path("~")
